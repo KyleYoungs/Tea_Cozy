@@ -4,7 +4,10 @@
   color: seashell;
   background-color: black;
   opacity: 0.9;
-  flex-direction: column;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
 }
 
 .banner {
@@ -21,4 +24,47 @@
 a {
   color: seashell;
   text-decoration: underline;
+}
+
+.mission img {
+  height: 700px;
+}
+
+.mission h2,
+.mission h4 {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.featured {
+  width: 1000px;
+}
+
+.featured img {
+  height: 200px;
+  width: 300px;
+  padding: 10px;
+}
+
+.locations #location_1,
+.locations #location_2,
+.locations #location_3, {
+  width: 300px;
+  opacity: 1;
+  padding-top: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.locations img {
+  height: 500px;
+}
+
+.contact {
+  height: 200px;
+}
+
+.contact #copyright {
+  padding-left: 20px;
+  text-align: left;
 }
