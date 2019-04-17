@@ -1,0 +1,24 @@
+* {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  flex-direction: column;
+}
+
+.banner {
+  position: fixed;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+}
+
+.banner #logo {
+  padding: 10px;
+  height: 50px;
+}
+
+a {
+  color: seashell;
+  text-decoration: underline;
+}
